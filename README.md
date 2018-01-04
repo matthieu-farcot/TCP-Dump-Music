@@ -13,9 +13,9 @@ For Mardown tips, see https://guides.github.com/features/mastering-markdown/
 https://en.wikipedia.org/wiki/General_MIDI
 
 * Project related
-** https://github.com/nickpegg/tcpdump-tunes
-** https://github.com/vishnubob/python-midi/
-** http://www.tcpdump.org
+  * https://github.com/nickpegg/tcpdump-tunes
+  * https://github.com/vishnubob/python-midi/
+  * http://www.tcpdump.org
 
 * Installation
 
