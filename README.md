@@ -4,6 +4,10 @@ Project mixing online traffic with sounds
 * Idea
 Generate random but harmonical music based on real time traffic capture. Mess around with the idea.
 
+* Note
+For Mardown tips, see https://guides.github.com/features/mastering-markdown/
+
+
 ## Links for ressources:
 * MIDI related
 https://en.wikipedia.org/wiki/General_MIDI
