@@ -6,7 +6,7 @@ Generate random but harmonical music based on real time traffic capture. Mess ar
 
 ## Note
 For Mardown tips, see https://guides.github.com/features/mastering-markdown/
-
+* Editing is easy
 
 ## Links for ressources:
 ### MIDI related
