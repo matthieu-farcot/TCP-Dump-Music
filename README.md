@@ -1,5 +1,5 @@
 # TCP-Dump-Music
-Project mixing online traffic with sounds
+Project mixing online traffic with sounds and some lights
 
 ## Idea
 Generate random but harmonical music based on real time traffic capture. Mess around with the idea.
