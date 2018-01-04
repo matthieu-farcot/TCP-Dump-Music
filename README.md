@@ -1,22 +1,22 @@
 # TCP-Dump-Music
 Project mixing online traffic with sounds
 
-* Idea
+## Idea
 Generate random but harmonical music based on real time traffic capture. Mess around with the idea.
 
-* Note
+## Note
 For Mardown tips, see https://guides.github.com/features/mastering-markdown/
 
 
 ## Links for ressources:
-* MIDI related
+### MIDI related
 https://en.wikipedia.org/wiki/General_MIDI
 
-* Project related
+### Project related
   * https://github.com/nickpegg/tcpdump-tunes
   * https://github.com/vishnubob/python-midi/
   * http://www.tcpdump.org
 
-* Installation
+### Installation
 
-* Example output and files
+### Example output and files
