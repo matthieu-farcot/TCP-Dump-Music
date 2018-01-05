@@ -24,7 +24,7 @@ https://en.wikipedia.org/wiki/General_MIDI
 
 ### Example output and files
 
-
+<pre><code>
 #!/usr/bin/env python
 
 # Parses the text output of tcpdump (with no -v) from stdin, makes music
@@ -177,3 +177,4 @@ def main():
 
 if __name__ == '__main__':
     exit(main())
+</code></pre>
