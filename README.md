@@ -19,6 +19,7 @@ https://en.wikipedia.org/wiki/General_MIDI
   * https://github.com/nickpegg/tcpdump-tunes
   * https://github.com/vishnubob/python-midi/
   * http://www.tcpdump.org
+  * https://www.r-bloggers.com/programming-instrumental-music-from-scratch/
 
 ### Installation
 
