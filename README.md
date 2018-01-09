@@ -20,6 +20,7 @@ https://en.wikipedia.org/wiki/General_MIDI
   * https://github.com/vishnubob/python-midi/
   * http://www.tcpdump.org
   * https://www.r-bloggers.com/programming-instrumental-music-from-scratch/
+  * https://stackoverflow.com/questions/11059801/how-can-i-write-a-midi-file-with-python
 
 ### Installation
 
