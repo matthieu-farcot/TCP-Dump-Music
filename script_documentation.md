@@ -13,3 +13,29 @@
   -> Just like with the first track, a NoteOnEvent, NoteOffEvent and ProgramChangeEvent (Instrument) has to be assigned (Line 68-88).  
   -> Finally a EndOfTrackEvent has to be assigned to the newly created track(Line 96).  
   -> More instruments can easily be added with the same principle.  
+
+## Short Explanation of specific lines of code
+  * MAX_OCTAVE  
+  
+The highest possible value the octave can have. The pitch of a note will never go above this value. Decrease this to force a darker sound. Increase this to allow higher pitched sound.  
+
+  * note = note + octave * 5
+
+The multiplicator in this variable can be used to change the pitch of the sound. Lower value     means darker sound, higher value means higher pitched sound. Keep in mind that if the multiplicator is increased, the pitch will still not go above the MAX_OCTAVE value.  
+
+  * track.append(midi.NoteOnEvent(tick=0, velocity=70, pitch=note))  
+
+The tick determines when the key is being hit. Increasing this value means it takes longer after a key hit until the next key is being hit.  
+The velocity determines how hard the key of a piano for example is being hit, in other words this determines the base volume (max. value: 127).  
+The pitch determines the pitch of the note. This is set to the (note = note + octave * 5) variable. Changing said variable therefore changes the pitch.  
+
+  *  track.append(midi.NoteOffEvent(tick=300, pitch=note))  
+  
+The tick determines how long the key is being pressed. Lowering this value  means notes are being played faster, increasing this value means it takes longer until the next note is being played.
+The pitch is the same as stated before.  
+
+  * track.append(midi.ProgramChangeEvent(data=[0]))  
+  
+This function determines which instrument is being played. Change the data value to change the instrument.  
+Which instrument equals which data parameter can be found here https://en.wikipedia.org/wiki/General_MIDI#Program_change_events  
+The value of the instrument is always -1 than shown on wikipedia!
