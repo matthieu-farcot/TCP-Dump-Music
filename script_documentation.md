@@ -1,4 +1,4 @@
-#Documentation of added code in the python script
+## Documentation of added code in the python script
 
 * The octave multiplier set to 5 (note = note + octave * 5) (Line 76)
   -> Sounds a bit darker than the natural instrument sound, but different pitches sound better.
