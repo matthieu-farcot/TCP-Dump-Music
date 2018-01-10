@@ -41,3 +41,10 @@ The pitch is the same as stated before.
 This function determines which instrument is being played. Change the data value to change the instrument.  
 Which instrument equals which data parameter can be found here https://en.wikipedia.org/wiki/General_MIDI#Program_change_events  
 The value of the instrument is always -1 than shown on wikipedia!
+
+  * Depiction of midi notes   
+http://www.electronics.dit.ie/staff/tscarff/Music_technology/midi/midi_note_numbers_for_octaves.htm  
+
+In the link above it is stated that C5 is the middle C note, but sometimes there are alternatives where a software interprets C3 as middle note, shifting the table upwards by 2 octaves.  
+This means that additionally, in Line 62, 66, 68, 70, 72 the midi.x_3 can be changed to alter the sound that way as well.  
+Currently they are set to C_3, D_3, G_3, F_3, so in the middle of the piano to guarantee a neutral base sound.
