@@ -1,4 +1,6 @@
-## Documentation of added code in the python script
+# Documentation of the python script
+
+## Explanation of changed code
 
 * The octave multiplier set to 5 (note = note + octave * 5) (Line 76)
   -> Sounds a bit darker than the natural instrument sound, but different pitches sound better.  
@@ -31,7 +33,7 @@ The pitch determines the pitch of the note. This is set to the (note = note + oc
 
   *  track.append(midi.NoteOffEvent(tick=300, pitch=note))  
   
-The tick determines how long the key is being pressed. Lowering this value  means notes are being played faster, increasing this value means it takes longer until the next note is being played.
+The tick determines how long the key is being pressed. Lowering this value  means notes are being played faster, increasing this value means it takes longer until the next note is being played.  
 The pitch is the same as stated before.  
 
   * track.append(midi.ProgramChangeEvent(data=[0]))  
